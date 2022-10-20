@@ -1,0 +1,26 @@
+body {
+    background: #323333;
+}
+
+h1 {
+    color: white;
+}
+
+#title-box {
+    width: auto;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#title-img {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+#title-text {
+    border-bottom: 10px;
+    vertical-align: middle;
+}
