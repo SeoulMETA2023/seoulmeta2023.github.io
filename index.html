@@ -18,7 +18,20 @@
             background: #1E1E1E;
         }
 
-        #nav-logo {
+        .wrapperDesktop {
+            display: none;
+        }
+        
+        @media screen and (min-width: 1024px) {
+            .wrapperMobile {
+                display: none;
+            }
+            .wrapperDesktop {
+                display: flex;
+            }
+        }
+
+        .nav-logo {
             width: 20vw;
             text-align: center;
         }
@@ -42,8 +55,11 @@
 <body>
 <!--<script src="package/bootstrap.bundle.min.js"></script>-->
 
-<header class="d-flex justify-content-center py-3">
-    <div id="nav-logo"><img style="width: 150px" src="resources/full-logo-1530x410.png" alt="logo"></div>
+<header class="wrapperMobile justify-content-center py-3">
+    <div class="nav-logo"><img style="width: 150px" src="resources/full-logo-1530x410.png" alt="logo"></div>
+</header>
+<header class="wrapperDesktop justify-content-center py-3">
+    <div class="nav-logo"><img style="width: 150px" src="resources/full-logo-1530x410.png" alt="logo"></div>
     <ul class="nav">
         <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
         <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
