@@ -1,73 +1,32 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <title>META</title>
     <link rel="icon" href="resources/logo-16x16.ico">
-
-    <link href="package/bootstrap.min.css" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
-
-    <style>
-        body {
-            background: #1E1E1E;
-        }
-
-        .wrapperDesktop {
-            display: none;
-        }
-        
-        @media screen and (min-width: 1024px) {
-            .wrapperMobile {
-                display: none;
-            }
-            .wrapperDesktop {
-                display: flex;
-            }
-        }
-
-        .nav-logo {
-            width: 20vw;
-            text-align: center;
-        }
-
-        .nav {
-            margin-right: 20vw;
-        }
-
-        .nav-item {
-            margin-left: 2vw;
-            margin-right: 2vw;
-            --bs-nav-link-color: #FFFFFF;
-            --bs-nav-link-hover-color: #A7A7AC;
-            font-size: 15px;
-            font-family: 'Noto Sans KR', sans-serif;
-        }
-    </style>
-
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-<!--<script src="package/bootstrap.bundle.min.js"></script>-->
-
-<header class="wrapperMobile justify-content-center py-3">
-    <div class="nav-logo"><img style="width: 150px" src="resources/full-logo-1530x410.png" alt="logo"></div>
-</header>
-<header class="wrapperDesktop justify-content-center py-3">
-    <div class="nav-logo"><img style="width: 150px" src="resources/full-logo-1530x410.png" alt="logo"></div>
-    <ul class="nav">
-        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Join</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-    </ul>
-</header>
+<div class="content">
+    <div class="home">
+        <div class="logo wrapperDesktop">
+            <img src="resources/full-logo-1530x410.png" alt="META logo" id="logo-img">
+        </div>
+    </div>
+    <div class="bio">
+        <div class="bio-text">
+            저희는 기계 공학 동아리로
+            <br>
+            <b>
+                설계, 디자인, 프로그래밍
+            </b>
+            <br>
+            저희 동아리가 추구하는 방식입니다
+        </div>
+    </div>
+</div>
 
 </body>
 </html>

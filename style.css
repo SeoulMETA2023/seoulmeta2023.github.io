@@ -1,0 +1,45 @@
+body {
+    background: #1E1E1E;
+    color: #FFFFFF;
+    overflow-x:hidden
+}
+
+.wrapperDesktop {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .wrapperMobile {
+        display: none;
+    }
+    .wrapperDesktop {
+        display: block;
+    }
+}
+
+.home {
+    height: 100%;
+}
+
+.logo {
+    position: absolute;
+    width: 100%;
+    top: 10vh;
+    text-align: center;
+}
+
+#logo-img {
+    width: 90vh;
+}
+
+.bio {
+    position: absolute;
+    width: 100%;
+    bottom: 20vh;
+    text-align: center;
+}
+
+.bio-text {
+    font-size: 4vh;
+    line-height: 8vh;
+}
