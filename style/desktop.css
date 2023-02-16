@@ -1,0 +1,39 @@
+.home {
+    height: 100%;
+}
+
+.logo-gear {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: -41vh;
+    left: -41vw;
+}
+
+#logo-gear-img {
+    opacity: 0.3;
+    width: 120vh;
+}
+
+.logo-meta {
+    position: absolute;
+    width: 100%;
+    top: 10vh;
+    text-align: center;
+}
+
+#logo-meta-img {
+    width: 80vh;
+}
+
+.bio {
+    position: absolute;
+    width: 100%;
+    bottom: 20vh;
+    text-align: center;
+}
+
+.bio-text {
+    font-size: 4vh;
+    line-height: 8vh;
+}

@@ -1,0 +1,18 @@
+body {
+    background: #1E1E1E;
+    color: #FFFFFF;
+    overflow-x:hidden
+}
+
+/*.wrapperDesktop {*/
+/*    display: none;*/
+/*}*/
+
+/*@media screen and (min-width: 1024px) {*/
+/*    .wrapperMobile {*/
+/*        display: none;*/
+/*    }*/
+/*    .wrapperDesktop {*/
+/*        display: block;*/
+/*    }*/
+/*}*/
