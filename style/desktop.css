@@ -1,5 +1,6 @@
 .home {
-    height: 100%;
+    height: 90%;
+    width: 100%;
 }
 
 .logo-gear {
@@ -11,8 +12,17 @@
 }
 
 #logo-gear-img {
-    opacity: 0.3;
+    opacity: 0.5;
     width: 120vh;
+
+    animation: rotate_img 180s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes rotate_img {
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .logo-meta {
@@ -36,4 +46,12 @@
 .bio-text {
     font-size: 4vh;
     line-height: 8vh;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 33%;
+    bottom: -22%;
+    background-color: #000000;
 }
