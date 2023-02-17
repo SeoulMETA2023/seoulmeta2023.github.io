@@ -1,13 +1,13 @@
 .home {
-    height: 90%;
-    width: 100%;
+    position: relative;
+    height: 90vh;
 }
 
 .logo-gear {
     position: absolute;
     width: 100%;
     text-align: center;
-    top: -41vh;
+    top: -41vh          ;
     left: -41vw;
 }
 
@@ -39,19 +39,26 @@
 .bio {
     position: absolute;
     width: 100%;
-    bottom: 20vh;
+    bottom: 17vh;
     text-align: center;
 }
 
 .bio-text {
-    font-size: 4vh;
-    line-height: 8vh;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 6vh;
+    line-height: 7vh;
 }
 
 .container {
-    position: absolute;
+    position: relative;
     width: 100%;
-    height: 33%;
-    bottom: -22%;
-    background-color: #000000;
+    height: 80vh;
+}
+
+.image-left {
+    background-color: #FFFFFF;
+}
+
+.image-right {
+    background-color: #dcdcdc;
 }
