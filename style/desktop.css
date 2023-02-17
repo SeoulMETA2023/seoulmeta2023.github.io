@@ -44,7 +44,7 @@
 }
 
 .bio-text {
-    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Black Han Sans', sans-serif;
     font-size: 6vh;
     line-height: 7vh;
 }
@@ -53,6 +53,7 @@
     position: relative;
     width: 100%;
     height: 80vh;
+    color: #000000;
 }
 
 .image-left {
