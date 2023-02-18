@@ -1,19 +1,20 @@
 .home {
     position: relative;
-    height: 90vh;
+    height: 95vh;
+    font-size: 2.4vh;
 }
 
 .logo-gear {
     position: absolute;
     width: 100%;
     text-align: center;
-    top: -41vh          ;
+    top: -41vh;
     left: -41vw;
 }
 
 #logo-gear-img {
     opacity: 0.5;
-    width: 120vh;
+    width: 115vh;
 
     animation: rotate_img 180s linear infinite;
     transform-origin: 50% 50%;
@@ -45,8 +46,8 @@
 
 .bio-text {
     font-family: 'Black Han Sans', sans-serif;
-    font-size: 6vh;
-    line-height: 7vh;
+    font-size: 2.7em;
+    line-height: 1em;
 }
 
 .container {
