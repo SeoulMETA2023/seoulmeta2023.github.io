@@ -1,7 +1,6 @@
 .home {
     position: relative;
     height: 95vh;
-    font-size: 2.4vh;
 }
 
 .logo-gear {
@@ -14,8 +13,7 @@
 
 #logo-gear-img {
     opacity: 0.5;
-    width: 115vh;
-
+    width: 1100px;
     animation: rotate_img 180s linear infinite;
     transform-origin: 50% 50%;
 }
@@ -34,7 +32,7 @@
 }
 
 #logo-meta-img {
-    width: 80vh;
+    width: 650px;
 }
 
 .bio {
@@ -46,14 +44,21 @@
 
 .bio-text {
     font-family: 'Black Han Sans', sans-serif;
-    font-size: 2.7em;
-    line-height: 1em;
+    font-size: calc(56px);
+    line-height: 60px;
 }
 
-.container {
+.small-container {
     position: relative;
     width: 100%;
-    height: 80vh;
+    height: 70vh;
+    color: #000000;
+}
+
+.big-container {
+    position: relative;
+    width: 100%;
+    height: 90vh;
     color: #000000;
 }
 
