@@ -1,9 +1,14 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
 body {
     background: #1E1E1E;
     color: #FFFFFF;
     overflow-x:hidden;
     width: 100%;
     margin: 0;
+
+    font-family: 'Black Han Sans', sans-serif;
 }
 
 /*.wrapperDesktop {*/
