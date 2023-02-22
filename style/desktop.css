@@ -11,12 +11,12 @@
 
 .logo-gear {
     position: absolute;
-    opacity: 0.7;
-    width: 1100px;
+    opacity: 0.8;
+    width: 1400px;
     top: 50%;
     left: 50%;
-    margin-top: -900px;
-    margin-left: -1350px;
+    margin-top: -1000px;
+    margin-left: -1500px;
     animation: rotate_img 180s linear infinite;
     transform-origin: 50% 50%;
 }
@@ -34,16 +34,27 @@
     left: calc(50% - 400px);
 }
 
-.bio {
+.text {
     position: absolute;
-    width: 100%;
-    bottom: 17vh;
-    text-align: center;
-    /*font-size: 56px;*/
-    font-size: calc(30px + 1.5vw);
+    /*background-color: rgba(200, 200, 200, 10);*/
+    width: 40%;
+    height: 60%;
+    top: 15%;
+    right: 5%;
+    text-align: left;
+}
+
+.title {
+    margin: 0;
+    opacity: 0.7;
+    font-size: 30px;
     font-weight: normal;
-    /*line-height: 60px;*/
-    line-height: calc(30px + 1.5vw);
+}
+
+.bio {
+    margin: 0;
+    font-size: calc(30px + 3vw);
+
 }
 
 .content {
