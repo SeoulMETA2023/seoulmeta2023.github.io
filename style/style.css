@@ -11,6 +11,20 @@ body {
     font-family: 'Black Han Sans', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.home > a {
+    color: #FFFFFF;
+}
+
+.content > a {
+    color: #000000;
+}
+
+
 /*.wrapperDesktop {*/
 /*    display: none;*/
 /*}*/

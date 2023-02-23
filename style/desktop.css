@@ -1,7 +1,11 @@
+/*
+For laptop & desktop
+1024px ~ 1440px
+*/
+
 .home {
     height: 93vh;
     max-height: 860px;
-    color: #FFFFFF;
 }
 
 .img-btn {
@@ -12,7 +16,7 @@
 .logo-gear {
     position: absolute;
     opacity: 0.8;
-    width: 1400px;
+    width: calc(1200px + 10vh);
     top: 50%;
     left: 50%;
     margin-top: -1000px;
@@ -25,13 +29,6 @@
     100% {
         transform: rotate(360deg);
     }
-}
-
-.logo-meta {
-    position: absolute;
-    top: 10%;
-    width: 800px;
-    left: calc(50% - 400px);
 }
 
 .text {
@@ -49,16 +46,28 @@
     opacity: 0.7;
     font-size: 30px;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 
 .bio {
     margin: 0;
     font-size: calc(30px + 3vw);
-
+    padding-bottom: 50px;
+    border-bottom: #8c8c8c solid 3px;
 }
 
-.content {
-    color: #000000;
+.sign-up {
+    cursor: pointer;
+    width: 270px;
+    height: 60px;
+    margin-top: 50px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    color: #1E1E1E;
+    font: inherit;
+    font-size: 28px;
+    text-align: center;
+    line-height: 60px;
 }
 
 .small-container {
