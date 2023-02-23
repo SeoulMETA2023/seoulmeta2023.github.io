@@ -3,7 +3,6 @@
 
 body {
     background: #1E1E1E;
-    color: #FFFFFF;
     overflow-x:hidden;
     width: 100%;
     margin: 0;
@@ -16,11 +15,11 @@ a {
     color: inherit;
 }
 
-.home > a {
+.home {
     color: #FFFFFF;
 }
 
-.content > a {
+.content {
     color: #000000;
 }
 
