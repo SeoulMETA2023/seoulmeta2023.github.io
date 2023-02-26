@@ -4,6 +4,7 @@ For laptop & desktop
 */
 
 .home {
+    position: relative;
     height: 93vh;
     max-height: 860px;
 }
@@ -61,6 +62,7 @@ For laptop & desktop
     width: 270px;
     height: 60px;
     margin-top: 50px;
+    border: 0;
     border-radius: 30px;
     background-color: #FFFFFF;
     color: #1E1E1E;

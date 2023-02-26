@@ -16,11 +16,11 @@ a {
     color: inherit;
 }
 
-.home > a {
+.home {
     color: #FFFFFF;
 }
 
-.content > a {
+.content {
     color: #000000;
 }
 
