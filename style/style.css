@@ -17,6 +17,8 @@ a {
 
 .home {
     color: #FFFFFF;
+    height: 93vh;
+    max-height: 860px;
 }
 
 .content {
