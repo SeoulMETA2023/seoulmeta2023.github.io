@@ -39,8 +39,13 @@
     background-color: #EFEFEF;
 }
 
-.darkBackground {
-    background-color: #DFDFDF;
+.orangeBackground {
+    background-color: #FAEBD7;
+}
+
+.blueBackground {
+    background-color: #02182D;
+    color: #FFFFFF;
 }
 
 .imageItem {
@@ -63,6 +68,6 @@
 .contentTextItem {
     margin-top: 3%;
     font-size: 27px;
-    color: rgba(30, 30, 30, 0.7);
+    opacity: 0.7;
     font-family: 'Do Hyeon', sans-serif;
 }

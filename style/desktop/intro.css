@@ -18,7 +18,7 @@ For laptop & desktop
     position: absolute;
     /*background-color: rgba(200, 200, 200, 10);*/
     width: 40%;
-    height: 60%;
+    height: 55%;
     top: 15%;
     right: 5%;
     text-align: left;
@@ -50,7 +50,8 @@ For laptop & desktop
     border-radius: 30px;
     background-color: #FFFFFF;
     color: #1E1E1E;
-    font: inherit;
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: bold;
     font-size: 25px;
     text-align: center;
     line-height: 60px;
