@@ -75,9 +75,15 @@
     font-family: 'Do Hyeon', sans-serif;
 }
 
-.contentUnderline {
+.blackUnderline {
     padding-bottom: 3%;
     border-bottom: #1E1E1E solid 1px;
+    margin-bottom: 3%;
+}
+
+.whiteUnderline {
+    padding-bottom: 3%;
+    border-bottom: #FFFFFF solid 1px;
     margin-bottom: 3%;
 }
 
