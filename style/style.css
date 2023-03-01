@@ -14,6 +14,11 @@ a {
     color: inherit;
 }
 
+a:hover {
+    text-decoration: underline;
+    color: inherit;
+}
+
 .home {
     color: #FFFFFF;
     height: 93vh;
