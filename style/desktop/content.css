@@ -50,24 +50,39 @@
 
 .imageItem {
     height: 100%;
+    max-width: 50%;
     border-radius: 30px;
 }
 
-.textItem {
+.textContainer {
+    display: flex;
     width: 40%;
+    flex-direction: column;
     /*background-color: aqua;*/
 }
 
-.titleTextItem {
+.titleItem {
     margin: 0;
-    font-size: 50px;
+    font-size: calc(20px + 2vw);
     font-weight: normal;
-    line-height: 47px;
+    line-height: calc(20px + 1.5vw);
 }
 
-.contentTextItem {
-    margin-top: 3%;
-    font-size: 27px;
+.contentItem {
+    margin-top: 1%;
+    font-size: calc(8px + 1vw);
     opacity: 0.7;
     font-family: 'Do Hyeon', sans-serif;
+}
+
+.contentUnderline {
+    padding-bottom: 3%;
+    border-bottom: #1E1E1E solid 1px;
+    margin-bottom: 3%;
+}
+
+.linkItem {
+    margin-top: 1%;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: calc(1px + 1vw);
 }
