@@ -19,6 +19,11 @@ a:hover {
     color: inherit;
 }
 
+a:active {
+    text-decoration: underline;
+    color: inherit;
+}
+
 .home {
     color: #FFFFFF;
     height: 93vh;
