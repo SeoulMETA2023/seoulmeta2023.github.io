@@ -34,15 +34,12 @@ a:active {
     color: #000000;
 }
 
-.img-btn {
-    border: none;
-    background-color: rgba(0, 0, 0, 0);
-}
-
-@keyframes rotate_img {
-    100% {
-        transform: rotate(360deg);
-    }
+.footer {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background-color: #1E1E1E;
+    color: #FFFFFF
 }
 
 /*.wrapperDesktop {*/
