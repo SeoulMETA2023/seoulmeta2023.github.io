@@ -1,16 +1,16 @@
-.smallGrid {
+.smallContentGrid {
     position: relative;
     width: 100%;
     height: 70vh;
 }
 
-.bigGrid {
+.bigContentGrid {
     position: relative;
     width: 100%;
     height: 90vh;
 }
 
-.container {
+.contentContainer {
     position: absolute;
     display: flex;
     width: 80%;
@@ -50,7 +50,7 @@
 
 .imageItem {
     height: 100%;
-    max-width: 50%;
+    /* max-width: 50%; */
     border-radius: 30px;
 }
 
