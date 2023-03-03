@@ -36,7 +36,7 @@
 }
 
 .grayBackground {
-    background-color: #EFEFEF;
+    background-color: #EFEFEF;  
 }
 
 .orangeBackground {
@@ -59,6 +59,14 @@
     width: 40%;
     flex-direction: column;
     /*background-color: aqua;*/
+}
+
+.textRight {
+    margin-left: 5%;
+}
+
+.textLeft {
+    margin-right: 5%;
 }
 
 .titleItem {
