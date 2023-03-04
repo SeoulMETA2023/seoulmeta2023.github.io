@@ -48,6 +48,7 @@
 
 .titleItem {
     margin: 0;
+    margin-bottom: 1%;
     font-size: calc(20px + 2vw);
     font-weight: normal;
     line-height: calc(20px + 1.5vw);
