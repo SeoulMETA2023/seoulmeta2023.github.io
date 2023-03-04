@@ -22,6 +22,7 @@
     transform: translate(-50%, -50%);
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
 }
 
 .imageItem {
