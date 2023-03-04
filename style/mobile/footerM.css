@@ -31,6 +31,9 @@
     height: 20%;
     justify-content: space-between;
     align-items: flex-end;
+    padding-bottom: 3.5%;
+    border-bottom: #FFFFFF solid 3px;
+    margin-bottom: 6.5%;
 }
 
 .logo-meta {
@@ -48,12 +51,6 @@
     width: 13%;
     margin: 0% 1%;
     filter: invert(79%) sepia(0%) saturate(188%) hue-rotate(295deg) brightness(87%) contrast(84%);
-}
-
-.seperateLine {
-    padding-bottom: 3.5%;
-    border-bottom: #FFFFFF solid 3px;
-    margin-bottom: 6.5%;
 }
 
 .creditContainer {

@@ -14,8 +14,8 @@
     top: 20%;
     right: 5%;
     text-align: left;
-    width: 40%;
-    height: 60%;
+    width: 50%;
+    height: 55%;
     max-height: 600px;
 }
 
@@ -29,9 +29,9 @@
 
 .bio {
     margin: 0;
+    padding-bottom: 30px;
     border-bottom: #8c8c8c solid 3px;
     font-size: calc(20px + 3vw);
-    padding-bottom: 50px;
 }
 
 .eventButton {
@@ -45,9 +45,9 @@
     font-family: 'Do Hyeon', sans-serif;
     font-weight: bold;
     text-align: center;
-    width: 240px;
-    height: 60px;
+    width: 70%;
+    height: 10%;
     margin-top: 50px;
-    font-size: 25px;
-    line-height: 60px;
+    font-size: calc(8px + 1.5vw);
+    line-height: 10%;
 }
