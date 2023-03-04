@@ -51,7 +51,15 @@
     width: 60%;
 }
 
-.creditItem {
+.creditItem-a {
+    width: 25%;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: calc(2px + 1vw);
+    line-height: calc(2px + 2vw);
+    color: #A7A7AC
+}
+
+.creditItem-b {
     width: 25%;
     font-family: 'Do Hyeon', sans-serif;
     font-size: calc(2px + 1vw);
