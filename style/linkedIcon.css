@@ -43,3 +43,11 @@
 #discord:active {
     filter: invert(76%) sepia(49%) saturate(5483%) hue-rotate(199deg) brightness(90%) contrast(89%);
 }
+
+#message:hover {
+    filter: invert(44%) sepia(99%) saturate(858%) hue-rotate(85deg) brightness(119%) contrast(123%);
+}
+
+#message:active {
+    filter: invert(44%) sepia(99%) saturate(858%) hue-rotate(85deg) brightness(119%) contrast(123%);
+}
