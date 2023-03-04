@@ -16,6 +16,8 @@
     <!-- css -->
     <style>
         @import url("style/style.css");
+        @import url("style/home.css");
+        @import url("style/contentContainer.css");
         @import url("style/linkedIcon.css");
 
         /* for DESKTOP */
@@ -24,6 +26,8 @@
         @import url("style/desktop/footerP.css") screen and (min-width: 1024px);
 
         /* for MOBILE */
+        @import url(style/mobile/contentM.css) screen and (max-width: 430px);
+        @import url(style/mobile/footerM.css) screen and (max-width: 430px);
     </style>
 <body>
 <div class="home">
@@ -51,7 +55,7 @@
     <div class="smallContentGrid whiteBackground">
         <div class="contentContainer imageRight">
             <img src="resources/content/family2022.jpg" alt="2022 META" class="imageItem">
-            <div class="textContainer textRight">
+            <div class="textContainer contentMargin-a">
                 <h2 class="titleItem">
                     우리는 META 입니다
                 </h2>
@@ -66,7 +70,7 @@
     <div class="smallContentGrid grayBackground">
         <div class="contentContainer imageLeft">
             <img src="resources/content/result2022.png" alt="2022 META" class="imageItem">
-            <div class="textContainer textLeft">
+            <div class="textContainer contentMargin-b">
                 <h2 class="titleItem">
                     짧은 역사, 그러나 많은 수상
                 </h2>
@@ -87,7 +91,7 @@
     <div class="smallContentGrid whiteBackground">
         <div class="contentContainer imageRight">
             <img src="resources/content/3Idiots.jpg" alt="Idiots" class="imageItem">
-            <div class="textContainer textRight">
+            <div class="textContainer contentMargin-a">
                 <h2 class="titleItem">
                     자유로운 작업 환경과 도움을 줄 수 있는 여러 선배들
                 </h2>
@@ -105,7 +109,7 @@
     <div class="bigContentGrid orangeBackground">
         <div class="contentContainer imageLeft">
             <img src="resources/content/we_want_you.jpg" alt="WE WANT YOU!" class="imageItem">
-            <div class="textContainer textLeft">
+            <div class="textContainer contentMargin-b">
                 <h2 class="titleItem">
                     META는 당신과 같은 미치광이가 필요합니다
                 </h2>
@@ -123,7 +127,7 @@
     <!-- <div class="bigContentGrid blueBackground">
         <div class="contentContainer imageLeft">
             <img src="resources/content/booth2022.jpg" alt="festival" class="imageItem">
-            <div class="textContainer textLeft">
+            <div class="textContainer contentMargin-b">
                 <h2 class="titleItem">
                     혹시 저희 경희제 부스를 찾고 계신가요?
                 </h2>
@@ -141,7 +145,7 @@
 
 <div class="footer">
     <div class="footerContainer">
-        <div class="footerItem rightLine">
+        <div class="footerItem seperateLine">
             <div class="smallBio">
                 A FREE SPACE FOR CREATION.
             </div>

@@ -1,0 +1,10 @@
+@keyframes rotate_img {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.img-btn {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
