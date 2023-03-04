@@ -66,6 +66,6 @@
 
 .contactImage {
     height: 100%;
-    margin: 0% 3%;
+    margin: 0% 2%;
     filter: invert(79%) sepia(0%) saturate(188%) hue-rotate(295deg) brightness(87%) contrast(84%);
 }
