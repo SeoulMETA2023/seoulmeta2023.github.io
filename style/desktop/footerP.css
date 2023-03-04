@@ -35,11 +35,7 @@
     /* background-color: blueviolet; */
 }
 
-.contactImage {
-    height: 100%;
-    margin: 0% 3%;
-    filter: invert(100%) sepia(0%) saturate(7489%) hue-rotate(144deg) brightness(98%) contrast(101%);
-}
+
 
 .rightLine {
     padding-right: 7.5%;
@@ -58,50 +54,10 @@
     font-family: 'Do Hyeon', sans-serif;
     font-size: calc(2px + 1vw);
     line-height: calc(2px + 2vw);
-    color: #bcbcbc
+    color: #A7A7AC
 }
 
 #creditTitle {
     font-size: calc(10px + 2vw);
     color: #FFFFFF
-}
-
-.linkedImage:hover {
-    text-decoration: none;
-}
-
-.linkedImage:active {
-    text-decoration: none;
-}
-
-#instagram:hover {
-    filter: invert(31%) sepia(73%) saturate(6319%) hue-rotate(351deg) brightness(104%) contrast(98%);
-}
-
-#instagram:active {
-    filter: invert(31%) sepia(73%) saturate(6319%) hue-rotate(351deg) brightness(104%) contrast(98%);
-}
-
-#github:hover {
-    filter: invert(17%) sepia(21%) saturate(10%) hue-rotate(348deg) brightness(98%) contrast(93%);
-}
-
-#github:active {
-    filter: invert(17%) sepia(21%) saturate(10%) hue-rotate(348deg) brightness(98%) contrast(93%);
-}
-
-#gmail:hover {
-    filter: invert(18%) sepia(35%) saturate(6663%) hue-rotate(354deg) brightness(103%) contrast(97%);
-}
-
-#gmail:active {
-    filter: invert(18%) sepia(35%) saturate(6663%) hue-rotate(354deg) brightness(103%) contrast(97%);
-}
-
-#discord:hover {
-    filter: invert(76%) sepia(49%) saturate(5483%) hue-rotate(199deg) brightness(90%) contrast(89%);
-}
-
-#discord:active {
-    filter: invert(76%) sepia(49%) saturate(5483%) hue-rotate(199deg) brightness(90%) contrast(89%);
 }

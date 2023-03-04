@@ -41,16 +41,3 @@ a:active {
     background-color: #1E1E1E;
     color: #FFFFFF
 }
-
-/*.wrapperDesktop {*/
-/*    display: none;*/
-/*}*/
-
-/*@media screen and (min-width: 1024px) {*/
-/*    .wrapperMobile {*/
-/*        display: none;*/
-/*    }*/
-/*    .wrapperDesktop {*/
-/*        display: block;*/
-/*    }*/
-/*}*/

@@ -13,13 +13,18 @@
     <meta property="og:description" content="서울고 기계공학부 META">
     <!--title-->
     <title>META</title>
-    <!--css-->
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/intro.css">
-    <!--css (Desktop 1024px ~)-->
-    <link rel="stylesheet" href="style/desktop/introP.css" media="screen and (min-width: 1024px)">
-    <link rel="stylesheet" href="style/desktop/contentP.css" media="screen and (min-width: 1024px)">
-    <link rel="stylesheet" href="style/desktop/footerP.css" media="screen and (min-width: 1024px)">
+    <!-- css -->
+    <style>
+        @import url("style/style.css");
+        @import url("style/linkedIcon.css");
+
+        /* for DESKTOP */
+        @import url("style/desktop/introP.css") screen and (min-width: 1024px);
+        @import url("style/desktop/contentP.css") screen and (min-width: 1024px);
+        @import url("style/desktop/footerP.css") screen and (min-width: 1024px);
+
+        /* for MOBILE */
+    </style>
 <body>
 <div class="home">
     <button type="button" class="img-btn" onclick="countUp()">
@@ -35,7 +40,7 @@
             <br>
             FOR CREATION.
         </h2>
-        <button type="button" class="sign-up">
+        <button type="button" class="sign-up" onclick="scrollToEvent()">
             부원 신청하러 가기 >
             <!-- 경희제 부스 보러 가기 > -->
         </button>
@@ -48,7 +53,7 @@
             <img src="resources/family2022.jpg" alt="2022 META" class="imageItem">
             <div class="textContainer textRight">
                 <h2 class="titleItem">
-                    저희는 이런 동아리 입니다
+                    우리는 META 입니다
                 </h2>
                 <div class="contentItem">
                     4차 산업혁명을 이끄는 여러 기술들을 제작하고, 여러 공학 학문에 대해 탐구하는 동아리입니다.
@@ -115,7 +120,7 @@
         </div>
     </div>
     <!--경희제-->
-    <div class="bigContentGrid blueBackground">
+    <!-- <div class="bigContentGrid blueBackground">
         <div class="contentContainer imageLeft">
             <img src="" alt="festival" class="imageItem">
             <div class="textContainer textLeft">
@@ -131,7 +136,7 @@
                 </a>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
 
 <div class="footer">
@@ -143,16 +148,16 @@
             <img src="resources/logo_full(white).png" alt="full logo" class="logo-meta">
             <div class="contactContainer">
                 <a href="https://instagram.com/seoulhs.meta" class="linkedImage">
-                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/instagram.svg" alt="instagram" class="contactImage" id="instagram">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/instagram.svg" target="_blank" alt="instagram" class="contactImage" id="instagram">
                 </a>
                 <a href="https://github.com/seoulmeat2023" class="linkedImage">
-                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/github.svg" alt="github" class="contactImage" id="github">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/github.svg" target="_blank" alt="github" class="contactImage" id="github">
                 </a>
                 <a href="mailto:seungyounyou0220@gmail.com" class="linkedImage">
-                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/gmail.svg" alt="gmail" class="contactImage" id="gmail">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/gmail.svg" target="_blank" alt="gmail" class="contactImage" id="gmail">
                 </a>
                 <a href="https://discord.com/users/736472505224527902" class="linkedImage">
-                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@8.6.0/icons/discord.svg" alt="discord" class="contactImage" id="discord">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@8.6.0/icons/discord.svg" target="_blank" alt="discord" class="contactImage" id="discord">
                 </a>
             </div>
         </div>
@@ -189,5 +194,6 @@
 
 <!--src-->
 <script src="src/easterEgg.js"></script>
+<script src="src/autoScroll.js"></script>
 </body>
 </html>
