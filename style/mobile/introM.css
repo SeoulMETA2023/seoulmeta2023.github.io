@@ -34,9 +34,7 @@
 }
 
 .eventButton {
-    position: absolute;
     cursor: pointer;
-    bottom: 0;
     border: 0;
     border-radius: 30px;
     background-color: #FFFFFF;
@@ -44,9 +42,9 @@
     font-family: 'Do Hyeon', sans-serif;
     font-weight: bold;
     text-align: center;
-    width: 50%;
-    height: 10%;
+    width: 130px;
+    height: 30px;
     margin-top: 50px;
-    font-size: calc(8px + 1.5vw);
-    line-height: 10%;
+    font-size: 14px;
+    line-height: 30px;
 }
