@@ -2,20 +2,19 @@
     position: absolute;
     opacity: 0.8;
     animation: rotate_img 180s linear infinite;
-    width: calc(1000px + 10vh);
-    top: 50%;
+    width: calc(450px + 10vw);
+    top: 65%;
     left: 50%;
-    margin-top: -800px;
-    margin-left: -1200px;
+    margin-left: calc((450px + 10vw) / -2);
 }
 
 .text {
     position: absolute;
-    top: 20%;
-    right: 5%;
+    top: 10%;
+    right: 10%;
     text-align: left;
-    width: 50%;
-    height: 55%;
+    width: 80%;
+    height: 50%;
     max-height: 600px;
 }
 
@@ -23,7 +22,7 @@
     margin: 0;
     color: rgba(255, 255, 255, 0.7);
     font-weight: normal;
-    font-size: calc(10px + 1.3vw);
+    font-size: calc(5px + 3vw);
     padding-bottom: 1%;
 }
 
@@ -31,7 +30,7 @@
     margin: 0;
     padding-bottom: 30px;
     border-bottom: #8c8c8c solid 3px;
-    font-size: calc(20px + 3vw);
+    font-size: calc(30px + 3vw);
 }
 
 .eventButton {
@@ -45,7 +44,7 @@
     font-family: 'Do Hyeon', sans-serif;
     font-weight: bold;
     text-align: center;
-    width: 70%;
+    width: 50%;
     height: 10%;
     margin-top: 50px;
     font-size: calc(8px + 1.5vw);
