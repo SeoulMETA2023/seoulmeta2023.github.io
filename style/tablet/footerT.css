@@ -10,7 +10,7 @@
     /* background-color: aqua; */
     position: absolute;
     display: flex;
-    width: 70%;
+    width: 90%;
     height: 70%;
     top: 50%;
     left: 50%;
@@ -28,9 +28,9 @@
 .footerItem {
     width: 25%;
     height: 100%;
-    padding-right: 7.5%;
+    padding-right: 3.5%;
     border-right: #FFFFFF solid 3px;
-    margin-right: 7.5%;
+    margin-right: 6.5%;
 }
 
 .logo-meta {
@@ -52,7 +52,7 @@
 }
 
 .creditItem-a {
-    width: 25%;
+    width: 30%;
     font-family: 'Do Hyeon', sans-serif;
     font-size: calc(2px + 1vw);
     line-height: calc(2px + 2vw);
@@ -60,7 +60,7 @@
 }
 
 .creditItem-b {
-    width: 25%;
+    width: 20%;
     font-family: 'Do Hyeon', sans-serif;
     font-size: calc(2px + 1vw);
     line-height: calc(2px + 2vw);
