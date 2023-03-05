@@ -10,70 +10,70 @@
     /* background-color: aqua; */
     position: absolute;
     display: flex;
-    width: 90%;
+    width: 80%;
     height: 70%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* justify-content: space-between; */
-    /* align-items: center; */
+    flex-direction: column;
 }
 
 .smallBio {
-    text-align: right;
-    font-size: 0.85vw;
-    margin-bottom: 1.3%;
+    display: none;
 }
 
 .footerItem {
-    width: 25%;
-    height: 100%;
-    padding-right: 3.5%;
-    border-right: #FFFFFF solid 3px;
-    margin-right: 6.5%;
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 3.5%;
+    border-bottom: #FFFFFF solid 2px;
+    margin-bottom: 6.5%;
 }
 
 .logo-meta {
-    width: 100%;
-    /* background-color:yellow; */
+    height: 90%;
 }
 
 .contactContainer {
-    margin-top: 7%;
-    height: 10%;
+    width: 45%;
+    height: 55%;
     text-align: center;
-    /* background-color: blueviolet; */
+}
+
+.contactImage {
+    /* width: 11%; */
+    height: 100%;
+    margin: 0% 1%;
+    filter: invert(79%) sepia(0%) saturate(188%) hue-rotate(295deg) brightness(87%) contrast(84%);
 }
 
 .creditContainer {
     /* background-color: antiquewhite; */
     display: flex;
-    width: 60%;
+    width: 100%;
+    height: 70%;
 }
 
 .creditItem-a {
     width: 30%;
     font-family: 'Do Hyeon', sans-serif;
-    font-size: calc(2px + 1vw);
-    line-height: calc(2px + 2vw);
+    font-size: calc(2px + 2vw);
+    line-height: calc(3px + 3vw);
     color: #A7A7AC
 }
 
 .creditItem-b {
     width: 20%;
     font-family: 'Do Hyeon', sans-serif;
-    font-size: calc(2px + 1vw);
-    line-height: calc(2px + 2vw);
+    font-size: calc(2px + 2vw);
+    line-height: calc(3px + 3vw);
     color: #A7A7AC
 }
 
 #creditTitle {
-    font-size: calc(10px + 2vw);
+    font-size: calc(13px + 2vw);
     color: #FFFFFF
-}
-
-.contactImage {
-    height: 100%;
-    margin: 0% 2%;
-    filter: invert(79%) sepia(0%) saturate(188%) hue-rotate(295deg) brightness(87%) contrast(84%);
 }

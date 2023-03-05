@@ -20,9 +20,6 @@
 
 .smallBio {
     display: none;
-    /* text-align: right;
-    font-size: 0.5vw;
-    margin-bottom: 1%; */
 }
 
 .footerItem {
@@ -38,7 +35,6 @@
 
 .logo-meta {
     width: 40%;
-    /* height: fit-content; */
 }
 
 .contactContainer {
