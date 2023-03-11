@@ -15,5 +15,5 @@ function countUp() {
 }
 
 function gearSpeedUp() {
-    argument.style.animation = "rotate_img 0.1s linear infinite";
+    gear.style.animation = "rotate_img 0.1s linear infinite";
 }
