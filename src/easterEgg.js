@@ -1,4 +1,4 @@
-const gear = document.getElementsByClassName("logo-gear");
+const gear = document.getElementsByClassName("logo-gear")[0];
 let count = 0;
 
 function countUp() {
@@ -15,7 +15,5 @@ function countUp() {
 }
 
 function gearSpeedUp() {
-    for (const argument of gear) {
-        argument.style.animation = "rotate_img 0.1s linear infinite";
-    }
+    argument.style.animation = "rotate_img 0.1s linear infinite";
 }
