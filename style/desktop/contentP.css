@@ -60,7 +60,10 @@
     font-family: 'Do Hyeon', sans-serif;
 }
 
-D
+.smallText {
+    font-size: calc(4px + 1vw);
+    opacity: 0.4;
+}
 
 .blackUnderline {
     padding-bottom: 3%;
