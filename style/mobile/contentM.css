@@ -61,6 +61,11 @@
     font-family: 'Do Hyeon', sans-serif;
 }
 
+.smallText {
+    font-size: calc(5px + 1vw);
+    opacity: 0.4;
+}
+
 .blackUnderline {
     padding-bottom: 2%;
     border-bottom: #1E1E1E solid 1px;
