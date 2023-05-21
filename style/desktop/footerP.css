@@ -69,7 +69,8 @@
 
 #creditTitle {
     font-size: calc(10px + 2vw);
-    color: #FFFFFF
+    color: #FFFFFF;
+    margin-right: 10px;
 }
 
 .contactImage {
