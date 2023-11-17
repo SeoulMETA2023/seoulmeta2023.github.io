@@ -11,7 +11,7 @@ on:
 
 env:
     # Name of module and id separated by a slash
-    INSTANCE: Writerside/flask
+    INSTANCE: flaskpy/flask
     # Replace HI with the ID of the instance in capital letters
     ARTIFACT: webHelpFLASK2-all.zip
     # Writerside docker image version
