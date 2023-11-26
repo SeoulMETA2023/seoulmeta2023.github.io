@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="51ae2623">
+        <description>Created after removal of "Flask로 만드는 웹서버" from Help Instance</description>
+        <accepts>Flask로-만드는-웹서버.html</accepts>
+    </rule>
+    <rule id="246881d0">
+        <description>Created after removal of "REST 요청 요소들" from Help Instance</description>
+        <accepts>REST-요청-요소들.html</accepts>
+    </rule>
+    <rule id="18a7f5ef">
+        <description>Created after removal of "Empty XML Topic" from WebServer with Flask</description>
+        <accepts>Empty-XML-Topic.html</accepts>
+    </rule>
+    <rule id="65a7ebc2">
+        <description>Created after removal of "JSON" from WebServer with Flask</description>
+        <accepts>JSON.html</accepts>
+    </rule>
+    <rule id="7f182fd1">
+        <description>Created after removal of "This is the first topic" from WebServer with Flask</description>
+        <accepts>Default-topic.html</accepts>
+    </rule>
+</rules>
