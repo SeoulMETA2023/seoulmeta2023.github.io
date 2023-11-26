@@ -9,13 +9,14 @@ https://www.seoul-meta.com:4000/directory/page?param=true#1
 ```
 - `https`: Protocol<br/>통신 방식 명시합니다.
 - `www`: sub domain
-- `seoul-meta.com`: domain<br/>서브 도메인과 도메인 자리에는 IP 번호가 올 수 있습니다..
+- `seoul-meta.com`: domain<br/>서브 도메인과 도메인 자리에는 IP 번호가 올 수 있습니다.
 - `4000`: port<br/>
   도메인 옆에 콜론(:)을 적고 포트 번호를 적는다. 포트 번호는 (0 ~ 99999)까지 있습니다.
 - `directory`: sub folder
 - `page`: slug
 - `?<key>=<value>`: parameter<br/>
   링크 뒤에 물음표(?)가 붙고 그 뒤에 `키=값`의 형태로 붙는 것이 특징입니다.
+  여러 데이터가 들어간다면 `키1=값1&키2=값2`과 같이 and(&)기호로 구분합니다.
   구글 검색으로 예를 들자면 구글은 `https://www.google.com/search?q=python` 다음과 같이 python을 검색하게 된다면 이러한 링크가 만들어집니다.
   해당 링크의 search 뒤로 q값에 python이 들어간 모습을 볼 수 있습니다.
 - `#<anchor>`: anchor<br/>
