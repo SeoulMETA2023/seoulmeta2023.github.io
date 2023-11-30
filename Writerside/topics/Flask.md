@@ -10,7 +10,7 @@ Flask는 복잡한 여러 파일 구조없이 파일 하나만 있어도 서버�
 Flask는 파이썬에 기본적으로 장착되어 있는 것이 아니라, 
 다른 사람들이 만든 것들이여서 인터넷에 있는 Flask를 `pip`로 다운받아주어야 합니다.
 
-윈도우는 CMD로, 맥은 Terminal을 켜세요.
+윈도우는 CMD로, 맥은 Terminal을 켜주세요.
 
 <tabs>
 <tab title="Windows">
