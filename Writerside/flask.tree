@@ -20,7 +20,32 @@
         <toc-element topic="flask-routing.md"/>
         <toc-element topic="flask-variable-rule.md">
         </toc-element>
-        <toc-element topic="flask-http-method.md"/>
+        <toc-element topic="flask-http-method.md">
+            <toc-element topic="flask-make-readable.md"/>
+        </toc-element>
+        <toc-element topic="flask-get-data.md">
+            <toc-element topic="flask-request-data.md"/>
+        </toc-element>
+        <toc-element topic="flask-render-templates.md"/>
+        <toc-element topic="flask-test-from-other-devices.md"/>
     </toc-element>
+    <toc-element topic="SQL.md">
+        <toc-element topic="SQLite.md">
+            <toc-element topic="sqlite-create-table.md"/>
+            <toc-element topic="sqlite-drop.md"/>
+            <toc-element topic="sqlite-insert.md">
+            </toc-element>
+            <toc-element topic="sqlite-select.md">
+            </toc-element>
+            <toc-element topic="sqlite-delete.md"/>
+        </toc-element>
+        <toc-element topic="sql-python.md">
+            <toc-element topic="sql-connect.md"/>
+            <toc-element topic="sql-cursor.md"/>
+            <toc-element topic="sql-execute.md"/>
+            <toc-element topic="sql-fetch.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element topic="WebSocket.md"/>
 
 </instance-profile>

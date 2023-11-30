@@ -26,4 +26,8 @@
         <description>Created after removal of "This is the first topic" from WebServer with Flask</description>
         <accepts>Default-topic.html</accepts>
     </rule>
+    <rule id="56519f11">
+        <description>Created after removal of "조건 조회" from WebServer with Flask</description>
+        <accepts>sqlite-where.html</accepts>
+    </rule>
 </rules>
