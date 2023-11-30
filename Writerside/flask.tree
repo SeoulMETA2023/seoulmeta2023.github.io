@@ -17,8 +17,10 @@
         <toc-element topic="HTTP-method.md"/>
     </toc-element>
     <toc-element topic="Flask.md">
-        <toc-element topic="routing.md"/>
-        <toc-element topic="variable-rule.md"/>
+        <toc-element topic="flask-routing.md"/>
+        <toc-element topic="flask-variable-rule.md">
+        </toc-element>
+        <toc-element topic="flask-http-method.md"/>
     </toc-element>
 
 </instance-profile>
