@@ -12,6 +12,7 @@
   - GET과 POST 요청에서는 항상 url 매개변수로 `userName`을 받아 처리할 유저의 이름을 지정합니다.
 
 > 메소드에 관한 내용은 [HTTP method](HTTP-method.md)를 참고해주세요.
+> 
 > URL 매개변수에 관한 내용은 [REST의 요청 요소들](REST-request-elements.md#url)을 참고하여 주세요.
 
 ```python
