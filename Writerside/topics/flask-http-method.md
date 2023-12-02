@@ -112,6 +112,44 @@ elif requests.method == "POST":
 
 `abort`함수가 실행되면 오류가 실행되고 함수가 중단되기 때문에 `return`을 작성하지 않아도 됩니다.
 
+#### 모든 일은 뜻대로 되지 않는다
+
+```python
+user_name = request.arg.get("userName")
+```
+`requests.arg.get`은 값을 넣어서 요청이 들어온 링크의 URL 매개변수에서 원하는 값을 받을 수 있습니다.
+하지만, 이 함수는 URL에 없는 매개변수를 받으려고 할 때 KeyError가 발생한다.
+이런 에러의 발생은 아래와 같이 해결 할 수 있을 것입니다.
+
+```python
+try:
+	user_name = request.arg.get("userName")
+except KeyError:
+	abort(400)
+```
+`userName` 매개변수를 제출하지 않았을 때에는 `abort`함수를 이용해서 에러가 나도록 하였습니다.
+
+또는, 값을 넣지 않으면 기본 값을 설정해서 에러가 발생하지 않고 유저 데이터가 반환되게 할 수 있을 것입니다.
+```python
+try:
+	user_name = request.arg.get("userName")
+except KeyError:
+	user_name =  "유승연"
+```
+이렇게 에러를 처리해서 기본 유저명을 설정하는 것도 좋지만, 아래에 더 좋은 방법이 있습니다.
+
+```python
+user_name = request.arg.get("userName", "유승연")
+```
+`requests.arg.get`함수의 2번째 매개변수를 이용하면 가져올 값과 없을 때 사용하는 기본값을 설정할 수 있습니다.
+전에 썼던 코드보다 3줄이나 줄어든 형태입니다.
+
+> 상황에 따라 오류를 발생할 수도, 기본값을 넣을 수도 있습니다.
+> 지금 작성하는 코드에서는 기본값보단 이름을 넣지 않았을 때 오류를 발생하는 것이 더 적합합니다.
+> 자신이 구현하는 코드에 대해 잘 고민해보고 선택하시기 바랍니다.
+
+{title="꼭 모든 url 매개변수에 기본값을 쓰라는 의미는 아닙니다."}
+
 ## 전체 코드 {collapsible="true"}
 
 `get_user`와 `make_user`이 구현이 되지 않았으므로, 아래 코드는 실제로 실행이 되지는 않습니다.
