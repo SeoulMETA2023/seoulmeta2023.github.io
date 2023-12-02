@@ -21,20 +21,26 @@ Flask는 파이썬에 기본적으로 장착되어 있는 것이 아니라,
 </tab>
 </tabs>
 
-## 기본 프로젝트 구조
+## 기본 프로젝트 구조 {id="project_structure"}
 ```
 /project
 	/static
 	/templates
 	app.py
 ```
-project 폴더 안에 있는 Flask 파일 구조를 적었습니다.
 
-- app.py: Flask 코드를 적습니다.
-- templates: HTML 파일이 들어가는 폴더입니다.
-- static: CSS, JS 파일과 다른 이미지 등등 리소스 파일들이 들어가는 폴더입니다.
+{style="wide"}
 
-위 구조대로 폴더를 일단 만들어 주세요.
+app.py
+: Flask 코드를 적습니다. 
+
+templates
+: HTML 파일이 들어가는 폴더입니다.
+
+static
+: CSS, JS 파일과 다른 이미지 등등 리소스 파일들이 들어가는 폴더입니다.
+
+위 구조대로 폴더를 만들어 주세요.
 
 ## 기본 코드
 가장 기본이 되는 코드는 아래와 같습니다.
