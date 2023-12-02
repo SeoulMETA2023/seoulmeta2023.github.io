@@ -52,3 +52,27 @@ GET과 POST에 따라 함수가 2개로 나뉜 것으로 보입니다.
 해당 라우트에서 HTTP 메소드만을 사용할 때에는 유용합니다.
 
 여기에는 `get`과 `post`만 나왔지만, 나머지 `put`과 `delete`도 다 가능합니다.
+
+#### 전체 코드 {collapsible="true"}
+
+```python
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.get("/hello")
+def hello():
+    return "Hello"
+
+@app.get("/user")
+def user_get():
+    if get_user(request.arg.get("userName")) is None:
+        abort(400)
+    return get_user(user_name)
+
+@app.post("/user")
+def user_make():
+    if get_user(request.arg.get("userName")) is not None:
+        abort(400)
+    make_user(user_name)
+```

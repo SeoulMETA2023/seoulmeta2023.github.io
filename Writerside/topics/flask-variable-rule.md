@@ -31,7 +31,9 @@ URL 변수 규칙들을 원하는 타입으로 받고 싶을 때에는 `<타입:
 - `path`: 슬래시(/)가 포함된 문자열의 형태로 저장된다. 즉, 라우트 URL 뒤에 있는 모든 경로가 문자열로 저장된다는 의미입니다.
 
 
-## 전체 코드 보기 {collapsible="true"}
+#### 전체 코드 {collapsible="true"}
+
+`get_user`와 `make_user`이 구현이 되지 않았으므로, 아래 코드는 실제로 실행이 되지는 않습니다.
 
 ```python
 from flask import Flask

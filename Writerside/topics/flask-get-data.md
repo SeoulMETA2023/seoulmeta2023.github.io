@@ -66,7 +66,7 @@ def say_hi():
 
 요청 데이터는 일반적인 방법으로는 보낼 수 없기 때문에, 다음에는 테스트를 위한 요청 데이터를 보내는 방법을 알아보겠습니다.
 
-## 전체 코드 {collapsible="true"}
+#### 전체 코드 {collapsible="true"}
 
 ```python
 from flask import Flask, request, abort

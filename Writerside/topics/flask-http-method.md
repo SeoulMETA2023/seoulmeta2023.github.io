@@ -150,7 +150,7 @@ user_name = request.arg.get("userName", "유승연")
 
 {title="꼭 모든 url 매개변수에 기본값을 쓰라는 의미는 아닙니다."}
 
-## 전체 코드 {collapsible="true"}
+#### 전체 코드 {collapsible="true"}
 
 `get_user`와 `make_user`이 구현이 되지 않았으므로, 아래 코드는 실제로 실행이 되지는 않습니다.
 
