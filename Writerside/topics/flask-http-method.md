@@ -9,11 +9,9 @@
 - `/user`
   - GET 요청을 하면 기존에 있는 유저를 가져오고, 그 정보를 보냅니다.
   - POST 요청을 하면 새로운 유저를 추가하고, 이미 있는 유저라면 에러(400)가 일어나게 합니다.
-  - GET과 POST 요청에서는 항상 url 매개변수로 `userName`을 받아 처리할 유저의 이름을 지정합니다.
+  - GET과 POST 요청에서는 항상 [URL 매개변수](REST-request-elements.md#url)로 `userName`을 받아 처리할 유저의 이름을 지정합니다.
 
 > 메소드에 관한 내용은 [HTTP method](HTTP-method.md)를 참고해주세요.
-> 
-> URL 매개변수에 관한 내용은 [REST의 요청 요소들](REST-request-elements.md#url)을 참고하여 주세요.
 
 ```python
 def get_user(name):
@@ -62,10 +60,13 @@ def user():
 ```python
 from flask import request, abort
 ```
-- `request`: 현재 라우트로 들어온 요청을 관리할 수 있게 합니다.
-- `abort`: HTTP status code로 오류를 발생시킵니다.
 
-> HTTP status code에 관해서는 [REST의 요청 요소들](REST-request-elements.md#status-code)을 참고하여 주세요.
+{style="medium"}
+request
+: 현재 라우트로 들어온 요청을 관리할 수 있게 합니다.
+
+abort()
+: [HTTP status code](REST-request-elements.md#status-code)로 오류를 발생시킵니다.
 
 `request`를 이용하여 `/hello` 라우트의 나머지 부분도 완성하여 봅시다.
 

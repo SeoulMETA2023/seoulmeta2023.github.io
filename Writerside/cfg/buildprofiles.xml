@@ -2,7 +2,8 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <variables></variables>
+    <variables>
+    </variables>
     <build-profile instance="hi">
         <variables>
             <noindex-content>true</noindex-content>
@@ -23,5 +24,10 @@
             <noindex-content>true</noindex-content>
         </variables>
     </build-profile>
+
+    <footer>
+        <copyright>Piop2 2023</copyright>
+        <social type="instagram" href="sng_yn.06"></social>
+    </footer>
 
 </buildprofiles>

@@ -2,11 +2,7 @@
 
 요청 데이터를 받아서 더 많은 정보를 처리하여 봅시다.
 
-요청 데이터는 JSON 형식을 사용함으로써 다양한 데이터 형식을 적용할 수 있습니다.
-
-> HTTP 요청 데이터에 관한 내용은 [REST이 요청 요소들](REST-request-elements.md#data)을 참고하여 주세요.
->
-> JSON에 관한 내용은 [JSON](JSON.md)을 참고하여 주세요.
+[요청 데이터](REST-request-elements.md#data)는 [JSON](JSON.md) 형식을 사용함으로써 다양한 데이터 형식을 적용할 수 있습니다.
 
 ## 인사해보기
 
@@ -34,7 +30,7 @@ def say_hi():
 ```python
 from flask import request
 ```
-`request` 모듈에는 요청에 관한 모든 작업을 할 수 있습니다.
+
 이 모듈을 이용해서 받은 데이터를 가져오겠습니다.
 
 ```
