@@ -22,6 +22,9 @@ Flask는 파이썬에 기본적으로 장착되어 있는 것이 아니라,
 </tabs>
 
 ## 기본 프로젝트 구조 {id="project_structure"}
+
+Flask 앱을 개발할 때에 항상 기본이 되는 파일 구조를 알아보겠습니다.
+
 ```
 /project
 	/static
