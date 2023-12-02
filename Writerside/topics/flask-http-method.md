@@ -156,6 +156,7 @@ user_name = request.arg.get("userName", "유승연")
 
 ```python
 from flask import Flask, request, abort
+
 app = Flask(__name__)
 
 @app.route("/hello", methods="GET")
